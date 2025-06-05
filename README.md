@@ -2,7 +2,7 @@
 
 This project was completed as part of the CodePath SITE Summer Internship's Bug Crawl Lab. The goal was to identify and resolve common HTML and CSS layout issues using browser developer tools and validation services.
 
-## Summary of Fixes
+## Fixes Made - Minimum and Strech Goals Completed 🥳
 
 ### HTML
 - Fixed improper nesting and missing closing tags
