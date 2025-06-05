@@ -31,7 +31,12 @@ Make sure this screenshot file is placed in the same directory as the README fil
 - Chrome Developer Tools
 - W3C HTML and CSS Validators
 
-## How to Run
-1. Clone this repository
-2. Open `index.html` in a browser
-3. Resize the window to test responsive behavior
+## Issues Encountered
+
+One of the main challenges was figuring out how to size images consistently and control the spacing between them. Adjusting `width`, `max-width`, and margins required careful testing to avoid layout shifts, especially when overlaying text on top of images.
+
+Getting the spacing right between feature items using Flexbox also took some trial and error, particularly balancing margins and responsive behavior.
+
+## Application to Globetrotter Project
+
+These debugging exercises helped reinforce how to effectively manage layout spacing, image scaling, and text overlays. For the Globetrotter travel guide project, this will help me better structure section spacing, align content cleanly, and present media elements with consistent size and positioning across screen sizes.
