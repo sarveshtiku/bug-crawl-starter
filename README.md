@@ -1,74 +1,37 @@
-# Bug Crawl Debugging Lab 🐞
+# Bug Crawl Lab - Debugging Exercise
 
-This project was completed as part of the CodePath SITE Summer Internship's **Bug Crawl Lab**, where I practiced debugging common HTML and CSS layout issues using DevTools, CSS validators, and responsive design principles.
+This project was completed as part of the CodePath SITE Summer Internship's Bug Crawl Lab. The goal was to identify and resolve common HTML and CSS layout issues using browser developer tools and validation services.
 
-## ✅ Overview
+## Summary of Fixes
 
-The goal was to inspect, debug, and improve a pre-built but buggy web layout. I identified and fixed issues in the box model, Flexbox layout, responsiveness, and CSS inheritance.
+### HTML
+- Fixed improper nesting and missing closing tags
+- Added semantic structure for clarity and maintainability
+- Cleaned up indentation and structure for readability
 
----
+### CSS
+- Corrected box model issues with appropriate padding, margin, and borders
+- Used Flexbox to align and distribute layout elements
+- Overlaid text on images using absolute positioning within a relative container
+- Adjusted image sizing for consistency and responsiveness
+- Implemented responsive media queries to support small screens
+- Built a multi-column footer using Flexbox with responsive wrap behavior
 
-## 🛠️ Fixes and Improvements Made
+## Final Layout Preview
 
-### 🔹 HTML Fixes
-- Fixed incorrect or missing closing tags
-- Ensured valid and semantic structure
-- Applied proper nesting for all elements
+A screenshot of the final working version is shown below.
 
-### 🔹 CSS Fixes
-- Corrected padding, margin, and borders to match intended box model behavior
-- Explicitly set `box-sizing`, `display`, and `position` for layout clarity
-- Added `.feature-item` and `.centered-text` classes to overlay text on images using:
-  - `position: absolute`
-  - `transform: translate(-50%, -50%)`
-- Implemented responsive design with media queries:
-  - Adjusted `.feature-container` to stack on small screens
-  - Centered and resized text for mobile view
-- Built a responsive **multi-column footer** using Flexbox:
-  - Used `flex-wrap` for wrapping
-  - Styled with spacing, alignment, and mobile adjustments
+<img width="1725" alt="Screenshot 2025-06-05 at 12 10 22" src="https://github.com/user-attachments/assets/245fbabe-dd00-446c-b89e-721b9199a0d8" />
 
-### 🔹 Layout Adjustments
-- Made feature section images smaller using `width` and `max-width`
-- Centered overlay text on images
-- Cleaned up inconsistent spacing between boxes using DevTools
 
----
+Make sure this screenshot file is placed in the same directory as the README file.
 
-## 🖼️ Final Layout Preview
+## Tools Used
+- Visual Studio Code
+- Chrome Developer Tools
+- W3C HTML and CSS Validators
 
-| Desktop View |  
-|--------------|
-| ![Final Layout](Screenshot%202025-06-05%20at%2012.07.27.png) |
-
-*(Ensure the image file is saved in the same folder and named exactly as above.)*
-
----
-
-## 🧰 Tools Used
-- VS Code + Prettier for formatting
-- Chrome DevTools for inspecting and live-editing styles
-- W3C Validators (HTML & CSS)
-- Flexbox for layout control
-- Media queries for responsive design
-
----
-
-## 📌 Lessons Learned
-- How to debug layout issues with DevTools
-- The power of `position: relative` and `absolute` for text overlays
-- How `flex-wrap` and `flex-basis` affect responsiveness
-- Practical understanding of the box model and margin collapsing
-- The importance of semantic and accessible HTML
-
----
-
-## 📁 How to Run
-1. Clone or download this repo
+## How to Run
+1. Clone this repository
 2. Open `index.html` in a browser
-3. View and resize window to test responsiveness
-
----
-
-## ✨ Credit
-Created by **Sarvesh Tiku** for the CodePath SITE Summer Internship Bug Crawl Lab.
+3. Resize the window to test responsive behavior
