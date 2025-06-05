@@ -10,19 +10,28 @@
     <div class="container">
         <h1>Flexbox Debugging</h1>
         <div class="box">This should be a green box with a black border.</div>
-        <div class="box" style="padding: 40px;">This should also be a green box with a black border, but with more padding.</div>
+        <div class="box" id="more-padding">This should also be a green box with a black border, but with more padding.</div>
         <div class="box" id="yellow-box">This should be a yellow box with a dotted border.</div>
 
-        <div class="flex-item">Box #1 - This should be to the left of Box #2.</div>
-        <div class="flex-item">Box #2 - This should be to the right of Box #1.</div>
+        <!--We created a flex container that groups both the boxes so we can align them properly -->
+         <div class="flex-container">
+                <div class="flex-item">Box #1 - This should be to the left of Box #2.</div>
+                <div class="flex-item">Box #2 - This should be to the right of Box #1.</div>
+        </div>
 
         <!-- Stretch Goal: Feature Section -->
         <section class="feature-section">
             <h2>Featured Content</h2>
-            <div class="feature-item">
+            <div class ="feature-container">
+                <div class="feature-item">
                 <img src="cat.jpg" alt="Feature Image">
-                <p>This is a feature item with text over an image.</p>
+                <p class="centered-text">This is a feature item with text over an image.</p>
             </div>
+                <div class="feature-item">
+                <img src="dog.jpg" alt="Feature Image">
+                <p class="centered-text">This is another feature item with text over an image.</p>
+            </div>
+
             <!-- Additional featured content -->
         </section>
 
